@@ -6,17 +6,18 @@
       font-family: 'Press Start 2P';
   }
 
-  
+
   /* ── Theme tokens ── */
   :root {
       --bg: #d8d8d8e7;
-      --bg-nav: #eee6e6a9;
+      --bg-nav: #a0a0a0;
       --bg-card: #f9fafb;
       --text: #111827;
       --text-muted: #4b5563;
       --text-subtle: #6b7280;
       --border: #e5e7eb;
       --hover-bg: #f3f4f6;
+      --text-link: #004cc5;
   }
 
   [data-theme="dark"] {
@@ -28,6 +29,11 @@
       --text-subtle: #9ca3af;
       --border: #2a2a2a;
       --hover-bg: #1f1f1f;
+      --text-link: #5998fc;
+  }
+
+  html {
+      background: var(--bg);
   }
 
   body {
